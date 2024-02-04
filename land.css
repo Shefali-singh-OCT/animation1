@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    z-index: -19;
+}
+#main #nav{
+    height: 100px;
+    width: 95v6w;
+    padding: 0px 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main #nav img{
+    height: 70px;
+}
+#main #nav h3{
+    text-transform: uppercase;
+    font-family: Editorial New Light;
+    font-size: 13px;
+    color: #fff;
+}
+#main #nav #part2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#main #nav #part3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#main #nav #part3 #h3{
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: -0.5;
+    padding: 10px;
+    color: #111;
+    border-radius: 5px;
+    font-weight: 900;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#main h1{
+    /* -webkit-text-stroke: 1px #fff; */
+    font-size: 120px;
+    text-transform: uppercase;
+    color: white;
+    /* font-family: Editorial New Light; */
+    font-family: gilroy;
+}
+#main h2{
+    /* -webkit-text-stroke: 1px #fff; */
+    font-size: 100px;
+    text-transform: uppercase ;
+    color: white;
+    font-family: Editorial New Light;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 10px 0px;
+    /* flex-direction: column; */
+    align-items: center;
+}
+#main h2 span{
+    background-color: brown;
+    /* color: #000; */
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#main #img{
+     height: 300px;
+     position: absolute;
+     top: 150px;
+     left: 10%;
+     border-radius: 10px;
+}
+#main #img1{
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    border-radius: 10px;
+    z-index: -10;
+    opacity: 0.7;
+}
+#main #img2{
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    border-radius: 10px;
+}
+#main #img3{
+    position: absolute;
+    top: 65%;
+    left: 23%;
+    z-index: -10;
+    height: 160px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+h5{
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+    font-family: gilroy;
+    font-size: 15px;
+}
